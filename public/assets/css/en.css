@@ -1,0 +1,99 @@
+.about{
+    text-align: left;
+}
+.about .container .button {
+    margin-left: 80px;
+}
+@media(max-width:992px){.about .container .button{margin-left:50px;padding-left:30px;}}
+@media (max-width:767.98px){
+    .about{margin-right:10px;margin-left:10px}
+
+    .about .container .button{margin-left:20px;padding-right:50px;width:90%;}}
+    @media(max-width:500px){
+        .about .container .button{padding-left:20px;justify-content:left}
+}
+.footer h4 {
+    text-align: left;
+}
+.footer ul li {
+    text-align: left;
+}
+.about-me .main .text-card .innercard {
+    border-left: 5px solid #c97f5f;
+    border-right: none;
+}
+.about-me .main .text p {
+   text-align: left ;
+}
+
+.squer{
+    left: unset;
+}
+.about-me .about h2 {
+    text-align: left;
+    padding-left: 10px;
+}
+.cardComment {
+    direction: rtl;
+}
+.cardComment-header .content {
+    text-align: left!important;
+    padding-left: 5px;
+}
+.comment .cardComment h3 {
+    text-align: left;
+}
+
+.en-text-left{
+    text-align: left !important;
+}
+
+
+@media (max-width: 767.96px){
+    .footer ul li {
+        text-align: center;
+    }
+    .footer h4 {
+        text-align: center;
+    }
+}
+
+
+/* strat */
+.en-text-left{
+    text-align: left !important;
+}
+.text-align-ar-right
+{
+    text-align: right ! important;
+}
+/* end */
+
+.contact .contact-text h2 {
+    text-align: left !important;
+}
+.contact .contact-text {
+    padding-left: 20px;
+}
+
+
+@media (max-width: 767.96px){
+    .footer ul li {
+        text-align: center;
+    }
+    .footer h4 {
+        text-align: center;
+    }
+}
+
+
+.nav-en{
+    left: calc(100% - 12rem) !important;
+}
+.about .container .button .contact-btn {
+    margin-left: 0px;
+}
+
+.align-box {
+    text-align: left !important;
+ }

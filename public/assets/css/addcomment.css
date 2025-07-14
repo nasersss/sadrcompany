@@ -1,0 +1,262 @@
+@font-face {
+    font-family: "Helvetica Neue LT";
+    src: url(../font/HelveticaNeueLTW1GBd.otf);
+    src: url(../font/HelveticaNeueLTW1GLt.otf);
+    src: url(../font/HelveticaNeueLTW1GRoman.otf)
+        }
+
+        @font-face {
+            font-family: "logo";
+            src: url(../font/Bauhaus.ttf)
+        }
+
+        @font-face {
+            font-family: "Helvetica AR";
+            src: url(../font/alfont_com_AlFont_com_helveticaneueltarabicroman1.ttf);
+            src: url(../font/helveticaneuelt-arabic-55-roman.ttf)
+        } 
+body{
+    font-family:'Helvetica Neue LT','Helvetica AR';
+background: linear-gradient(to bottom, #35537D, #4974b1, #C97F5F);
+display:flex;
+justify-content: center;
+align-items: center;
+height:100vh;
+}
+:root {
+    --modal-duration: 1s;
+    --modal-color: #428bca;
+    --primary-color: #35537D;
+  }
+
+img{
+    width:200px;
+}  
+  
+  
+.wrapper {
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+    width: 500px;
+    min-height: 300px;
+    padding: 10px;
+}
+
+.wrapper #form .inputBox {
+    margin: 10px auto;
+}
+
+.wrapper #form .inputBox input[type="text"],
+.wrapper #form .inputBox textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s border-color ease;
+}
+
+.wrapper #form .inputBox input[type="text"]:focus,
+.wrapper #form .inputBox textarea:focus {
+    border-color: var(--primary-color);
+}
+
+.wrapper #form .inputBox textarea {
+    resize: vertical;
+}
+
+.wrapper .content {
+    text-align: center;
+    margin: 10px 0;
+}
+.wrapper .content .item {
+    background: var(--primary-color);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: 0.3s all ease;
+}
+
+.wrapper .content .item:hover {
+    box-shadow: 0 0 5px var(--primary-color);
+}
+
+ button {
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    width: 130px;
+    font-size: 15px;
+    color: var(--primary-color);
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.3s all ease;
+    font-family: "Helvetica AR";
+}
+button:hover {
+    background: #c97f5f;
+    color: white;
+}
+.wrapper #form button:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+  .loginPup .login {
+      height: 500px;
+      background: #eee;
+      border-radius: 60% / 10%;
+      transform: translateY(20px);
+      transition: .8s ease-in-out;
+  }
+  .loginPup .loginPup .login label{
+      color: #35537D;
+      transform: scale(.6);
+  }
+  
+  
+  @media(max-width:450px){
+      .loginPup .main{
+         width:95%;
+         height:80%;
+         
+     }
+  }
+ 
+  
+  .loginPup .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+  }
+  .content{
+    position: absolute;
+    top:0;
+    right:10%;
+    max-width:300px
+  }
+  .modal-content {
+    margin: 10px auto;
+    width:500px;
+    background-color: #35537D;
+    /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17); */
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+   padding:0
+  }
+  @media (max-width:720px){
+      .modal-content
+      {width:350px;}
+      .content{
+   display:none;
+  }
+  }
+  a{
+      color:#35537D;
+       transition: .3s;
+       outline: none;
+        text-decoration: none;
+  }
+  a:hover{
+      color:#fff;
+  }
+ 
+  .modal-header h2,
+  .modal-footer h3 {
+    margin: 0;
+  }
+  
+  .modal-header {
+    background: #35537D;
+    padding: 15px;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display:flex;
+    justify-content:center;
+  }
+  
+  .modal-body {
+    padding: 10px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .modal-footer {
+    background: var(--modal-color);
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+ 
+  .close {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .close {
+    position:absolute;
+    top:0;
+    left:50%;
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #thanks{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    display:none;
+    width:300px;
+    height:200px;
+    background: #35537D;
+    z-index: 1000;
+  }
+  #thanks p{
+    line-height:200px;
+    margin:auto;
+    width:100%;
+    text-align:center;
+    color:#fff;
+  }

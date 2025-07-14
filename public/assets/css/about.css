@@ -1,0 +1,119 @@
+
+ .about-me .about .container{
+    /* box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgb(53, 83, 125); */
+}
+     .about-me .main-c {
+        color: #35537D
+    }
+     .about-me .main-Bg {
+        background: #35537D
+    }
+     .about-me .main{
+        width:100%;
+        display:flex;
+        position:relative;
+      
+    }
+     .about-me .main .text-card{
+        width:70%;
+        display:flex;
+        text-overflow:clip;
+      flex-wrap:wrap;
+     
+    
+    }
+     .about-me .main .text-card .innercard{
+        display:flex;
+        flex-wrap:wrap;
+        margin-bottom :10px;
+        width:600px;
+        border-right:5px solid #c97f5f;
+    }
+   
+    .about-me .main .title{
+        width:100px;
+    }
+    .about-me  .main .text{
+       width: 455px;
+        text-overflow:clip;
+    }
+    .about-me  .main .text p{
+        font-size:16px;
+     font-weight:700;
+        color:#35537D; 
+    }
+    .w-c{
+      color:#fff;
+  }
+ .about-me .about h2{
+     font-size:22px;
+     font-weight:700;
+     color:#c97f5f;
+     text-align:right;
+    padding-right:10px
+
+ }
+   /*.about-me .about .container .text {*/
+   /* padding: -1px 80px 0;*/
+   /*                     }*/
+
+  .about-me .about p{
+    text-overflow:clip;
+    font-size:19px;
+    text-align:right;
+    color:#fff;
+    padding-right:10px
+  }
+     .about-me .main .logo{
+        width:20%;
+    }
+     .about-me .main .logo img{
+        
+        width:200px;
+       
+    }
+.about-me  .squer{
+         position: absolute;
+         bottom:0;
+         left:5%;
+    }
+   
+  @media(max-width:992px){
+       .about-me .about p{
+    font-size:17px;
+    }
+     .about-me  .main .text{
+           width: 450px;
+        text-overflow:clip;
+    }
+  }
+  
+ @media(max-width:767px){
+      .about-me .about{
+      margin-left: 0px; 
+     margin-right: 0px; 
+         }
+.about-me .logo{
+    display:none;
+}
+  .about-me .about p{
+    font-size:16px;
+    }
+     
+ }
+ @media(max-width:500px){
+     .about-me .main .text-card .innercard{
+        width:300px;
+     
+    }
+    .about-me .main .text{
+        width:300px; 
+    }
+    .about-me .about p{
+    font-size:16px;
+    }
+    .about-me .logo{
+        display:none;
+    }
+ }
+   

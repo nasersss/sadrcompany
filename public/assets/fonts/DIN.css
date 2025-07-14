@@ -1,0 +1,15 @@
+@font-face {
+    font-family: DIN-light;
+    src:url(../fonts/alfont_com_AlFont_com_helveticaneueltarabicroman1.ttf);
+   src:url(../fonts/helveticaneuelt-arabic-55-roman.ttf);
+}
+@font-face {
+    font-family: DIN-medium;
+    src:url(../fonts/alfont_com_AlFont_com_helveticaneueltarabicroman1.ttf);
+    src:url(../fonts/helveticaneuelt-arabic-55-roman.ttf);
+}
+@font-face {
+    font-family: DIN-bold;
+    src:url(../fonts/alfont_com_AlFont_com_helveticaneueltarabicroman1.ttf);
+    src:url(../fonts/helveticaneuelt-arabic-55-roman.ttf);
+}

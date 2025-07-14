@@ -1,0 +1,77 @@
+body
+{
+    background-color: white;
+}
+.btn-home-back
+{
+    padding: 5px 25px;
+    padding-bottom: 10px;
+}
+.error-msg {
+    padding: 0% 0 0%;
+    text-align: center;
+}
+.error-msg h1
+{
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #35537d;
+    font-size: 3.3vw;
+}
+.error-msg h4
+{
+    width: 40vw;
+    margin: auto;
+    margin-bottom: 5.5vh;
+    margin-top: -10px;
+    color: rgb(3 15 39 / 70%);
+
+}
+.error-img img {
+    width: 37vw;
+    margin-top: 5vh;
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 1170px;
+        margin: auto;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+    .error-msg {
+        padding: 0% 0 0%;
+        width: 100vw;
+        margin: auto;
+        text-align: center;
+    }
+    .error-msg h1
+{
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #35537d;
+    font-size: 7.3vw;
+}
+.error-msg h4
+{
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 5.5vh;
+    margin-top: -10px;
+    color: rgb(3 15 39 / 70%);
+
+}
+.error-img {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+.error-img img {
+    width: 80vw;
+}
+
+}

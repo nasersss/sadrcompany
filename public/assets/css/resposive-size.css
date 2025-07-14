@@ -1,0 +1,78 @@
+  @media (min-width: 576px) {
+    body,.button-menu-mobile
+    {
+             font-size: 1.6rem;
+            }
+            .breadcrumb-item+.breadcrumb-item::before{
+                font-size: 26px;
+                line-height: 1.8;
+            }
+            .notification-list .noti-icon {
+                font-size: 26px;}
+            .page-title-box .page-title {
+                font-size: 26px;
+            }
+            body[data-leftbar-compact-mode="condensed"]:not(.authentication-bg) .side-nav .side-nav-item .side-nav-link i {
+                font-size: 1.6rem;
+            }
+    .fs-icon-home
+    {
+        font-size: 36px;
+    }
+    .font-15
+    {
+        font-size: 26px !important;
+    }
+    }
+@media (min-width: 768px) {
+    body,.button-menu-mobile
+    {
+        font-size: 1.6rem;
+}
+ .page-title-box .page-title {
+    font-size: 26px;
+}
+body[data-leftbar-compact-mode="condensed"]:not(.authentication-bg) .side-nav .side-nav-item .side-nav-link i {
+    font-size: 1.6rem;
+}
+}
+@media (min-width: 992px) {
+    body,.button-menu-mobile
+    {
+        font-size: 1.6rem;
+    }
+
+    .page-title-box .page-title {
+        font-size: 26px;
+    }
+    body[data-leftbar-compact-mode="condensed"]:not(.authentication-bg) .side-nav .side-nav-item .side-nav-link i {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    body
+    {
+         font-size: 0.9rem;
+    }
+    .breadcrumb-item+.breadcrumb-item::before {
+        font-family: "Material Design Icons";
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    .fs-icon-home
+    {
+        font-size: 26px;
+    }
+    .font-15
+    {
+        font-size: 15px !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    body
+    {
+         font-size: 0.9rem;
+    }
+}
