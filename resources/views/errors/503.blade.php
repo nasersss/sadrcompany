@@ -1,0 +1,5 @@
+@extends('errors::layout')
+@section('title', __('error-page-handel.503-t'))
+@section('code', '503')
+@section('message-title',__('error-page-handel.503-t'))
+@section('message',__('error-page-handel.503'))
