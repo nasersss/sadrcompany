@@ -49,7 +49,7 @@
                         </a>
                     </div>
                 @else
-                    <div class="rounded-circle"  style=" height: 40px; width: 40px; border: 4px solid #c97f5f;">
+                    <div class="rounded-circle"  style=" height: 40px; width: 40px; border: 4px solid #b59276;">
                         <img src="@isset(Auth::user()->profile->image) {{ Auth::user()->profile->image }}@else /images/users/defaultImage.png @endisset"
                             class="w-100 h-100 rounded-circle dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">

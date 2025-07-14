@@ -1,198 +1,189 @@
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
 
 /* UTILITY */
 .p-small {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 .p-medium {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .p-y {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 .m-y {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
-.filter-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.filter-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.works ul{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+.works ul {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
-.works ul li{
- list-style: none;
+.works ul li {
+  list-style: none;
 }
-.works ul li a{
-    position: relative;
-    display: block;
-    padding: 0px;
-    color: #262626;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #e4e0e0;
+.works ul li a {
+  position: relative;
+  display: block;
+  padding: 0px;
+  color: #262626;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #e4e0e0;
 }
- .works .btn {
-    cursor: pointer;
-    display: inline-block;
-    margin: 5px;
-    padding: 8px 15px;
-    color: #252323;
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 0;
-    border: none;
-    transition: .3s;
+.works .btn {
+  cursor: pointer;
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  color: #252323;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 0;
+  border: none;
+  transition: 0.3s;
 }
-.works .filter-box  a:hover {
-    color: #fff;
-    background-color: #35537D;
+.works .filter-box a:hover {
+  color: #fff;
+  background-color: #4b5159;
 }
-.works ul li.active a{
-    color: #fff;
-    background-color: #35537D;
+.works ul li.active a {
+  color: #fff;
+  background-color: #4b5159;
 }
 
 .works .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-
-
 .scrol-work {
-
-    background-color: #f4f4f4;
-
+  background-color: #f4f4f4;
 }
 
 .scrol-work .slide-container {
-     position: relative;
-     max-width: 1100px;
-     justify-content: center;
-     margin: 0 auto;
+  position: relative;
+  max-width: 1100px;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .scrol-work .arrow {
-    width: 2rem;
-    margin: 0 1rem;
-    color: red;
+  width: 2rem;
+  margin: 0 1rem;
+  color: red;
 }
-.scrol-work .arrow-left, .arrow-right{
-    display: block;
+.scrol-work .arrow-left,
+.arrow-right {
+  display: block;
 }
 .scrol-work .arrow-left {
-    position: absolute;
-    top: 50%;
-    z-index: 1000;
-    left: -4%;
+  position: absolute;
+  top: 50%;
+  z-index: 1000;
+  left: -4%;
 }
 .scrol-work .arrow-right {
-
-    position: absolute;
-    top: 50%;
-    z-index: 1000;
+  position: absolute;
+  top: 50%;
+  z-index: 1000;
 }
 
 .scrol-work section {
-    width: 100%;
-    margin: 0 10px;
-    display: flex;
-    /*align-items: center;*/
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    /* border: 1px solid black; */
+  width: 100%;
+  margin: 0 10px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  /* border: 1px solid black; */
 }
 
 .scrol-work section::-webkit-scrollbar {
-    height: 5px;
-    width: 2px;
-    border: 1px solid #d5d5d5;
-    background: #d5d5d5;
+  height: 5px;
+  width: 2px;
+  border: 1px solid #d5d5d5;
+  background: #d5d5d5;
 }
 
 .scrol-work section::-webkit-scrollbar-track {
-    --webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 .scrol-work section::-webkit-scrollbar-thumb {
-    background-color: var(--color-primary);
-    outline: 1px solid #eee;
-     /* border-radius: 100px; */
-  }
+  background-color: var(--color-primary);
+  outline: 1px solid #eee;
+  /* border-radius: 100px; */
+}
 
 .scrol-work section .thumbnail {
-    flex: 0 0 auto;
-	object-fit: cover;
-	cursor: pointer;
-	margin: 5px;
-    border: 1px solid var(--black);
-    overflow: hidden;
-    transform: scale(.95);
-    transition: all .3s;
+  flex: 0 0 auto;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 5px;
+  border: 1px solid var(--black);
+  overflow: hidden;
+  transform: scale(0.95);
+  transition: all 0.3s;
 }
 
 .scrol-work section .thumbnail:hover {
-    transform: scale(1);
+  transform: scale(1);
 }
-@media (max-width:776px) {
-    .scrol-work .arrow-left, .arrow-right{
-        display: block;
-    }
-    .scrol-work section {
-        justify-content: left;
-        }
-    .works ul{
-        padding: 0 10px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-        }
-    .works ul li {
-        width: 20%;
-    }
-    .works .btn {
-        width: 90%;
-        text-align: center;
-    }
-
+@media (max-width: 776px) {
+  .scrol-work .arrow-left,
+  .arrow-right {
+    display: block;
+  }
+  .scrol-work section {
+    justify-content: left;
+  }
+  .works ul {
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .works ul li {
+    width: 20%;
+  }
+  .works .btn {
+    width: 90%;
+    text-align: center;
+  }
 }
-@media (max-width:500px) {
-    .scrol-work .arrow-left, .arrow-right{
-        display: block;
-    }
-   .works ul{
-        padding: 0 10px;
-
-   }
-    .works ul li {
-        width:50%;
-        text-align: center;
-   }
-    .works .btn {
-        width: 90%;
-    }
+@media (max-width: 500px) {
+  .scrol-work .arrow-left,
+  .arrow-right {
+    display: block;
+  }
+  .works ul {
+    padding: 0 10px;
+  }
+  .works ul li {
+    width: 50%;
+    text-align: center;
+  }
+  .works .btn {
+    width: 90%;
+  }
 }
-

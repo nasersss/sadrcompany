@@ -47,7 +47,7 @@
                                     </div>
                                     <div class="cardComment-comment p-3">
                                         <i class="fas fa-quote-right comment-right second-c"style=" padding: 0px 5px 5px 5px;font-size:25px;float: right;"></i>
-                                            <p class=" main-c" style="color:#35537D;">
+                                            <p class=" main-c" style="color:#4b5159;">
                                             <br>
                                             @if (config('locales.languages')[app()->getLocale()]['lang'] == 'ar')
                                             @isset($comment->comment_ar){{$comment->comment_ar}}@endisset
@@ -75,7 +75,7 @@
       <span role="button" class="owl-dot">
       <span></span></span>
       <span role="button" class="owl-dot active" >
-      <span style="background:#35537D; border-radius: 50%;"></span></span>
+      <span style="background:#4b5159; border-radius: 50%;"></span></span>
       <span role="button" class="owl-dot">
       <span></span></span>
 </div>

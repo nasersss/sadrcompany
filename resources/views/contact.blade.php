@@ -27,7 +27,7 @@ Contact us تواصل معنا
    <div class="container">
     @include('message')
        <div class="section-header text-center">
-           <h2 style="color:#35537d;">{{__('home.contactTitle')}}</h2>
+           <h2 style="color:#4b5159;">{{__('home.contactTitle')}}</h2>
        </div>
 
        <div class="row">

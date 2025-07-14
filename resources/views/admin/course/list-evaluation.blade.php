@@ -69,7 +69,7 @@
                                 background: conic-gradient(
                                     #c02323 0deg {{$evaluationCount['content']['weekDeg']}}deg,
                                     #b37053 {{$evaluationCount['content']['weekDeg']}}deg {{$evaluationCount['content']['weekDeg'] + $evaluationCount['content']['goodDeg']}}deg,
-                                    #35537d {{$evaluationCount['content']['weekDeg'] + $evaluationCount['content']['goodDeg']}}deg {{$evaluationCount['content']['weekDeg'] + $evaluationCount['content']['goodDeg'] + $evaluationCount['content']['excellentDeg']}}deg
+                                    #4b5159 {{$evaluationCount['content']['weekDeg'] + $evaluationCount['content']['goodDeg']}}deg {{$evaluationCount['content']['weekDeg'] + $evaluationCount['content']['goodDeg'] + $evaluationCount['content']['excellentDeg']}}deg
                                 );">
                             </div>
                         <h5 class="text-center text-primary">محتوى الدورة</h5>
@@ -104,7 +104,7 @@
                                 background: conic-gradient(
                                     #c02323 0deg {{$evaluationCount['trainer']['weekDeg']}}deg,
                                     #b37053 {{$evaluationCount['trainer']['weekDeg']}}deg {{$evaluationCount['trainer']['weekDeg'] + $evaluationCount['trainer']['goodDeg']}}deg,
-                                    #35537d {{$evaluationCount['trainer']['weekDeg'] + $evaluationCount['trainer']['goodDeg']}}deg {{$evaluationCount['trainer']['weekDeg'] + $evaluationCount['trainer']['goodDeg'] + $evaluationCount['trainer']['excellentDeg']}}deg
+                                    #4b5159 {{$evaluationCount['trainer']['weekDeg'] + $evaluationCount['trainer']['goodDeg']}}deg {{$evaluationCount['trainer']['weekDeg'] + $evaluationCount['trainer']['goodDeg'] + $evaluationCount['trainer']['excellentDeg']}}deg
                                 );">
                             </div>
                         <h5 class="text-center text-primary">مدرب الدورة</h5>
@@ -139,7 +139,7 @@
                                 background: conic-gradient(
                                     #c02323 0deg {{$evaluationCount['exercises']['weekDeg']}}deg,
                                     #b37053 {{$evaluationCount['exercises']['weekDeg']}}deg {{$evaluationCount['exercises']['weekDeg'] + $evaluationCount['exercises']['goodDeg']}}deg,
-                                    #35537d {{$evaluationCount['exercises']['weekDeg'] + $evaluationCount['exercises']['goodDeg']}}deg {{$evaluationCount['exercises']['weekDeg'] + $evaluationCount['exercises']['goodDeg'] + $evaluationCount['exercises']['excellentDeg']}}deg
+                                    #4b5159 {{$evaluationCount['exercises']['weekDeg'] + $evaluationCount['exercises']['goodDeg']}}deg {{$evaluationCount['exercises']['weekDeg'] + $evaluationCount['exercises']['goodDeg'] + $evaluationCount['exercises']['excellentDeg']}}deg
                                 );">
                             </div>
                         <h5 class="text-center text-primary">واجبات الدورة</h5>
@@ -174,7 +174,7 @@
                                 background: conic-gradient(
                                     #c02323 0deg {{$evaluationCount['platformEase']['weekDeg']}}deg,
                                     #b37053 {{$evaluationCount['platformEase']['weekDeg']}}deg {{$evaluationCount['platformEase']['weekDeg'] + $evaluationCount['platformEase']['goodDeg']}}deg,
-                                    #35537d {{$evaluationCount['platformEase']['weekDeg'] + $evaluationCount['platformEase']['goodDeg']}}deg {{$evaluationCount['platformEase']['weekDeg'] + $evaluationCount['platformEase']['goodDeg'] + $evaluationCount['platformEase']['excellentDeg']}}deg
+                                    #4b5159 {{$evaluationCount['platformEase']['weekDeg'] + $evaluationCount['platformEase']['goodDeg']}}deg {{$evaluationCount['platformEase']['weekDeg'] + $evaluationCount['platformEase']['goodDeg'] + $evaluationCount['platformEase']['excellentDeg']}}deg
                                 );">
                             </div>
                         <h5 class="text-center text-primary">سهولة استخدام المنصة</h5>

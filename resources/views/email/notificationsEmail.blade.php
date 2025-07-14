@@ -121,7 +121,7 @@
     <!-- Progressive Enhancements : BEGIN -->
     <style>
         .primary {
-            background: #35537d;
+            background: #4b5159;
         }
 
         .bg_white {
@@ -152,7 +152,7 @@
 
         .btn.btn-primary {
             border-radius: 5px;
-            background: #35537d;
+            background: #4b5159;
             color: #ffffff;
         }
 
@@ -198,7 +198,7 @@
         }
 
         a {
-            color: #35537d;
+            color: #4b5159;
         }
 
         /* table {} */
@@ -210,7 +210,7 @@
         }
 
         .logo h1 a {
-            color: #35537d;
+            color: #4b5159;
             font-size: 24px;
             font-weight: 700;
 
@@ -241,7 +241,7 @@
 
         .hero .text h2 span {
             font-weight: 600;
-            color: #35537d;
+            color: #4b5159;
         }
 
 
@@ -274,7 +274,7 @@
             content: '';
             width: 100%;
             height: 2px;
-            background: #35537d;
+            background: #4b5159;
             margin: 0 auto;
         }
 
@@ -363,7 +363,7 @@
                     </td>
                 </tr><!-- end tr -->
                 <tr>
-                    <td valign="middle" class="hero bg_white" style="padding: 3em 0 2em 0; background: #35537d;">
+                    <td valign="middle" class="hero bg_white" style="padding: 3em 0 2em 0; background: #4b5159;">
                         <img src="https://buildplus.online/img/logo/Logo.png" alt="" style="width: 300px; max-width: 600px; height: auto; margin: auto; display: block;">
                     </td>
                 </tr><!-- end tr -->
@@ -465,7 +465,7 @@
                 </tr><!-- end: tr -->
                 {{-- <tr>
                     <td class="bg_light" style="text-align: center;">
-                        <p>تم إرسال هذا البريد الإلكتروني بواسطة <span style="color: #35537d;">بيلد بلس</span>
+                        <p>تم إرسال هذا البريد الإلكتروني بواسطة <span style="color: #4b5159;">بيلد بلس</span>
                             إذا كنت لا ترغب بتلقي هذا النوع من البريد الإلكتروني في المستقبل، فيرجى .
                             <a href="#" style="color: rgba(0,0,0,.8);">إلغاء الاشتراك</a>
                         </p>

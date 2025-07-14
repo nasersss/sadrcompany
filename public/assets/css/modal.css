@@ -1,162 +1,161 @@
 :root {
-    --modal-duration: 1s;
-    --modal-color: #428bca;
+  --modal-duration: 1s;
+  --modal-color: #428bca;
+}
+.loginPup .main {
+  width: 350px;
+  height: 430px;
+  overflow: hidden;
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38")
+    no-repeat center/ cover;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+  background: linear-gradient(to bottom, #4b5159, #4974b1, #b59276);
+}
+
+.loginPup label {
+  font-size: 1.9em;
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.loginPup input {
+  width: 80%;
+  height: 25x;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.loginPup button {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #4b5159;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.loginPup button:hover {
+  background: #b59276;
+}
+.loginPup .login {
+  height: 500px;
+  background: #eee;
+  border-radius: 60% / 10%;
+  transform: translateY(20px);
+  transition: 0.8s ease-in-out;
+}
+.loginPup .loginPup .login label {
+  color: #4b5159;
+  transform: scale(0.6);
+}
+
+@media (max-width: 450px) {
+  .loginPup .main {
+    width: 95%;
+    height: 80%;
   }
-  .loginPup .main{
-      width: 350px;
-      height: 430px;
-      overflow: hidden;
-      background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
-      border-radius: 10px;
-      box-shadow: 5px 20px 50px #000;
-      background: linear-gradient(to bottom, #35537D, #4974b1, #C97F5F);
-  }
-  
-  .loginPup label{
-      font-size: 1.9em;
-      justify-content: center;
-      display: flex;
-      margin: 20px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: .5s ease-in-out;
-  }
-  .loginPup input{
-      width: 80%;
-      height: 25x;
-      justify-content: center;
-      display: flex;
-      margin: 20px auto;
-      padding: 10px;
-      border: none;
-      outline: none;
-      border-radius: 5px;
-  }
-  .loginPup button{
-      width: 60%;
-      height: 40px;
-      margin: 10px auto;
-      justify-content: center;
-      display: block;
-      color: #fff;
-      background: #35537D;
-      font-size: 1em;
-      font-weight: bold;
-      margin-top: 20px;
-      outline: none;
-      border: none;
-      border-radius: 5px;
-      transition: .2s ease-in;
-      cursor: pointer;
-  }
-  .loginPup button:hover{
-      background: #C97F5F;
-  }
-  .loginPup .login {
-      height: 500px;
-      background: #eee;
-      border-radius: 60% / 10%;
-      transform: translateY(20px);
-      transition: .8s ease-in-out;
-  }
-  .loginPup .loginPup .login label{
-      color: #35537D;
-      transform: scale(.6);
-  }
-  
-  
-  @media(max-width:450px){
-      .loginPup .main{
-         width:95%;
-         height:80%;
-         
-     }
-  }
-  .loginPup .button {
-    background: #428bca;
-    padding: 5px;
-    color: #fff;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .loginPup .button:hover {
-    background: #3876ac;
-  }
-  
-  .loginPup .modal {
-    display: none;
-    position: fixed;
-    z-index: 999;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
+}
+.loginPup .button {
+  background: #428bca;
+  padding: 5px;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginPup .button:hover {
+  background: #3876ac;
+}
+
+.loginPup .modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  margin: 10px auto;
+  width: 350px;
+  background-color: #4b5159;
+  /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17); */
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+@media (max-width: 720px) {
   .modal-content {
-    margin: 10px auto;
-    width:350px;
-    background-color: #35537D;
-    /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17); */
-    animation-name: modalopen;
-    animation-duration: var(--modal-duration);
+    width: 350px;
   }
-  @media (max-width:720px){
-      .modal-content
-      {width:350px;}
+}
+.modal-header h2,
+.modal-footer h3 {
+  margin: 0;
+}
+
+.modal-header {
+  background: var(--modal-color);
+  padding: 15px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-body {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-footer {
+  background: var(--modal-color);
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.close {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+  color: #fff;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
   }
-  .modal-header h2,
-  .modal-footer h3 {
-    margin: 0;
+  to {
+    opacity: 1;
   }
-  
-  .modal-header {
-    background: var(--modal-color);
-    padding: 15px;
-    color: #fff;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-  
-  .modal-body {
-    padding: 10px 20px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  
-  .modal-footer {
-    background: var(--modal-color);
-    color: #fff;
-    text-align: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-  
-  .close {
-    color: #ccc;
-    float: right;
-    font-size: 30px;
-    color: #fff;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  @keyframes modalopen {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
+}

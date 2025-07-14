@@ -83,7 +83,7 @@
                                                                     
                                                               </div>                                                <!--<div class="content" id="content" dir="rtl">-->
                         </div>
-                                                                                         <!--<a class href="../login/login.php"style="color:#fff;" target="_blank"> <button style="background-color: #C97F5F;margin-bottom: 10px;" > إنشاء حساب لدينا</buttom></a>-->
+                                                                                         <!--<a class href="../login/login.php"style="color:#fff;" target="_blank"> <button style="background-color: #b59276;margin-bottom: 10px;" > إنشاء حساب لدينا</buttom></a>-->
     
                                                                     </div> 
                             </div> 

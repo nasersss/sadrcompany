@@ -2,13 +2,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description"
-content="شركة رائدة في تقديم الخدمات الهندسية والإعلانية,نعمل بأعلى مستويات الجودة وبإشراف طاقم ذو خبرة وكفاءة عالية"/>
+content="من أول سطر نرسم رؤية هندسية إبداعية
+تصاميــم | تراخيــص | إشـــراف | تنفيـــذ"/>
 <meta name="keywords"  content="التصميم الهندسي,
-,التصاميم, والمخططات المعمارية والتنفيذية,التصميم الجرافيكي
-,تصميم هوية الشركات, تصميم الكتب,تصميم الأغلفة,تصميم المجلات
+,التصاميم, والمخططات المعمارية والتنفيذية 
+,التراخيص الهندسية,التراخيص الهندسية في السعودية,
+,التراخيص الهندسية في الرياض,
+تصاميــم , تراخيــص,إشـــراف, تنفيـــذ
     ,التصميم الداخلي
-,تصميم الديكور, تصيم الاثاث بطريقة عصرية
-    الموشين جرافيك
 "/>
 <meta name="author" content="Go Up"/>
 
@@ -19,21 +20,23 @@ content="شركة رائدة في تقديم الخدمات الهندسية و�
 <!--
 for facebook sharing
 -->
-<meta property="og:title" content="BuildPlus"/>
-<meta property="og:description" content="شركة رائدة في تقديم الخدمات الهندسية والإعلانية ، نعمل بأعلى مستويات الجودة "/>
+<meta property="og:title" content="sadrcompany"/>
+<meta property="og:description" content="من أول سطر نرسم رؤية هندسية إبداعية
+تصاميــم | تراخيــص | إشـــراف | تنفيـــذ"/>
 <meta property="og:image" content="{{asset('/assets/img/sharing.jpg')}}"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
-<meta property="og:url"  content="https://buildplus.online/"/>
+<meta property="og:url"  content="https://sadrcompany.com/"/>
 <meta property="og:type" content="website"/>
 <!-- for facebook twitter -->
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@buildplus_c"/>
+<meta name="twitter:site" content="@sadrcompanyy"/>
 <meta name="twitter:creator" content="@AL_Ghaithweb"/>
-<meta property="og:url" content="https://buildplus.online/" />
-<meta property="og:title" content="BuildPlus" />
-<meta property="og:description"content="شركة رائدة في تقديم الخدمات الهندسية والإعلانية ، نعمل بأعلى مستويات الجودة وبإشراف طاقم ذو خبرة وكفاءة عالية"/>
+<meta property="og:url" content="https://sadrcompany.com/" />
+<meta property="og:title" content="sadrcompany" />
+<meta property="og:description"content="من أول سطر نرسم رؤية هندسية إبداعية
+تصاميــم | تراخيــص | إشـــراف | تنفيـــذ"/>
 <meta name="twitter:image:src"  content="{{asset('/assets/img/sharing.jpg')}}"/>
 
 <link href="{{asset('assets/css/vendor/jquery-jvectormap-1.2.2.css')}}" rel="stylesheet" type="text/css">
@@ -41,19 +44,15 @@ for facebook sharing
 
 <!-- App css -->
 <link href="{{asset('assets/css/ionicons.min.css')}}" rel="stylesheet" type="text/css">
-{{-- <link href="{{asset('assets/css/app-ar.min.css')}}" rel="stylesheet" type="text/css" id="light-style"> --}}
-{{-- <link href="{{asset('assets/css/app-dark.min.css')}}" rel="stylesheet" type="text/css" id="dark-style"> --}}
-{{-- <link href="{{asset('assets/css/header.css')}}" rel="stylesheet"> --}}
 <link href="{{asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css">
 
-<!-- Murad -->
 <link href="{{asset('assets/lib/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
 <link href="{{asset('assets/css/css/style.css')}}" rel="stylesheet">
 <link href="{{asset('assets/css/css/about.css')}}" rel="stylesheet">
 
-<!-- Murad -->
 
-{{-- Build plus css --}}
+
+{{-- sadrcompanyy  css --}}
 
 <!-- CSS Libraries -->
 <link href="{{asset('assets/lib/flaticon/font/flaticon.css')}}" rel="stylesheet">

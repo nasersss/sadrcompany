@@ -20,7 +20,7 @@
     <div class="container-fluid">
     <div class="container" >
         <div class="section-header text-center">
-            <h2 class="w-c text-title " style="color: #35537d !important;">{{__('home.service')}}</h2>
+            <h2 class="w-c text-title " style="color: #4b5159 !important;">{{__('home.service')}}</h2>
         </div>
         <div class="innerCard ">
             <div class="card">
