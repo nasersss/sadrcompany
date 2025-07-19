@@ -10,7 +10,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!-- CSS Reset : BEGIN -->
     <style>
@@ -343,14 +345,17 @@
 
 </head>
 
-<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
+<body width="100%"
+    style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
     <center style="width: 100%; background-color: #f1f1f1;">
-        <div style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+        <div
+            style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
 
         </div>
         <div style="max-width: 600px; margin: 0 auto;" class="email-container">
             <!-- BEGIN BODY -->
-            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                style="margin: auto;">
                 <tr>
                     <td valign="top" class="bg_white" style="padding: 1em 2.5em 0 2.5em;">
                         <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -364,7 +369,8 @@
                 </tr><!-- end tr -->
                 <tr>
                     <td valign="middle" class="hero bg_white" style="padding: 3em 0 2em 0; background: #4b5159;">
-                        <img src="https://buildplus.online/img/logo/Logo.png" alt="" style="width: 300px; max-width: 600px; height: auto; margin: auto; display: block;">
+                        <img src="https://buildplus.online/img/logo/Logo2.png" alt=""
+                            style="width: 300px; max-width: 600px; height: auto; margin: auto; display: block;">
                     </td>
                 </tr><!-- end tr -->
                 <tr>
@@ -373,35 +379,37 @@
                             <tr>
                                 <td>
                                     <div class="text" style="padding: 0 2.5em; text-align: center;">
-                                        <h2>بيلد بلس</h2>
-                                        <h2>مرحبا بك {{$notification->toUser->name}}</h2>
-                                        <h3>{{$notification->content}}</h3>
+                                        <h2>شركة سطر</h2>
+                                        <h2>مرحبا بك {{ $notification->toUser->name }}</h2>
+                                        <h3>{{ $notification->content }}</h3>
                                         @php
-                                        $route = explode('/',$notification->route);
-                                        $parameter = null;
-                                        $name = $route[0];
-                                        array_shift($route);
-                                        $parameter=$route;
+                                            $route = explode('/', $notification->route);
+                                            $parameter = null;
+                                            $name = $route[0];
+                                            array_shift($route);
+                                            $parameter = $route;
                                         @endphp
 
-                                        @if($notification->type==5)
-                                        <p><a href="{{$notification->route}}" class="btn btn-primary" style="border-radius:0;">
-                                            حضور الجلسة
-                                        </a></p>
+                                        @if ($notification->type == 5)
+                                            <p><a href="{{ $notification->route }}" class="btn btn-primary"
+                                                    style="border-radius:0;">
+                                                    حضور الجلسة
+                                                </a></p>
                                         @else
-                                        <p><a href="@if(count($route) == 1){{route($name)}}@else{{route($name,$parameter)}}@endif" class="btn btn-primary" style="border-radius:0;">
-                                            @if ($notification->type==1)
-                                            إبداء التعلم
-                                            @elseif ($notification->type==2)
-                                            المحاولة مرة اخرى
-                                            @elseif ($notification->type==3)
-                                            الحصول على الشهادة
-                                            @elseif ($notification->type==4)
-                                            طلبات الاشتراك
-                                            @else
-                                            انقر هنا
-                                            @endif
-                                        </a></p>
+                                            <p><a href="@if (count($route) == 1) {{ route($name) }}@else{{ route($name, $parameter) }} @endif"
+                                                    class="btn btn-primary" style="border-radius:0;">
+                                                    @if ($notification->type == 1)
+                                                        إبداء التعلم
+                                                    @elseif ($notification->type == 2)
+                                                        المحاولة مرة اخرى
+                                                    @elseif ($notification->type == 3)
+                                                        الحصول على الشهادة
+                                                    @elseif ($notification->type == 4)
+                                                        طلبات الاشتراك
+                                                    @else
+                                                        انقر هنا
+                                                    @endif
+                                                </a></p>
                                         @endif
                                         {{-- return redirect()->route("$notification->route"); --}}
 
@@ -415,17 +423,20 @@
                 </tr><!-- end tr -->
                 <!-- 1 Column Text + Button : END -->
             </table>
-            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                style="margin: auto;">
                 <tr>
                     <td valign="middle" class="bg_light footer email-section">
                         <table>
                             <tr>
                                 <td valign="top" width="33.333%" style="padding-top: 20px;">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                        width="100%">
                                         <tr>
                                             <td style="text-align: center; padding-right: 10px;">
-                                                <h3 class="heading">عن بيلد بلس</h3>
-                                                <p>شركة رائدة في تقديم الخدمات الهندسية والإعلانية نعمل بأعلى مستويات الجودة وبإشراف طاقم ذو خبرة وكفاءة عالية</p>
+                                                <h3 class="heading">عن شركة سطر</h3>
+                                                <p>شركة رائدة في تقديم الخدمات الهندسية والإعلانية نعمل بأعلى مستويات
+                                                    الجودة وبإشراف طاقم ذو خبرة وكفاءة عالية</p>
                                             </td>
                                         </tr>
                                     </table>
@@ -445,7 +456,8 @@
                                     </table>
                                 </td> --}}
                                 <td valign="top" width="33.333%" style="padding-top: 20px; ">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                        width="100%">
                                         <tr>
                                             <td style="text-align: center; padding-left: 10px;">
                                                 <h3 class="heading">روابط الموقع</h3>
@@ -465,7 +477,7 @@
                 </tr><!-- end: tr -->
                 {{-- <tr>
                     <td class="bg_light" style="text-align: center;">
-                        <p>تم إرسال هذا البريد الإلكتروني بواسطة <span style="color: #4b5159;">بيلد بلس</span>
+                        <p>تم إرسال هذا البريد الإلكتروني بواسطة <span style="color: #4b5159;">شركة سطر</span>
                             إذا كنت لا ترغب بتلقي هذا النوع من البريد الإلكتروني في المستقبل، فيرجى .
                             <a href="#" style="color: rgba(0,0,0,.8);">إلغاء الاشتراك</a>
                         </p>

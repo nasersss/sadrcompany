@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return [
     'vision'=>'Our vision',
@@ -6,5 +6,5 @@ return [
     'message'=>'Our message',
     'message_desc'=>' To contribute to a qualitative leap in the field of Architecture and advertising. ',
     'motto'=>'Our motto',
-    'motto_desc'=>'Buildplus where creativity is found. ',
+    'motto_desc'=>'We draw your vision from the first line ',
 ];

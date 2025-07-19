@@ -7,23 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-    content="شركة رائدة في تقديم الخدمات الهندسية والإعلانية,نعمل بأعلى مستويات الجودة وبإشراف طاقم ذو خبرة وكفاءة عالية"/>
-    <meta name="keywords"  content="التصميم الهندسي,
+        content="شركة رائدة في تقديم الخدمات الهندسية والإعلانية,نعمل بأعلى مستويات الجودة وبإشراف طاقم ذو خبرة وكفاءة عالية" />
+    <meta name="keywords"
+        content="التصميم الهندسي,
     ,التصاميم, والمخططات المعمارية والتنفيذية,التصميم الجرافيكي
     ,تصميم هوية الشركات, تصميم الكتب,تصميم الأغلفة,تصميم المجلات
         ,التصميم الداخلي
     ,تصميم الديكور, تصيم الاثاث بطريقة عصرية
         الموشين جرافيك
-    "/>
-    <meta name="author" content="Go Up"/>
+    " />
+    <meta name="author" content="Go Up" />
     <!-- App favicon -->
     {{-- <link rel="shortcut icon" href="assets/images/favicon.ico"> --}}
 
     <!-- App css -->
-    <link href="{{asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('assets/css/app-dark.min.ar.css')}}" rel="stylesheet" type="text/css" id="dark-style" />
-    <link href="{{asset('assets/css/app.min.ar.css')}}" rel="stylesheet" type="text/css" id="light-style" />
-    <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets/css/app-dark.min.ar.css') }}" rel="stylesheet" type="text/css" id="dark-style" />
+    <link href="{{ asset('assets/css/app.min.ar.css') }}" rel="stylesheet" type="text/css" id="light-style" />
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 
 </head>
 
@@ -38,22 +39,24 @@
 
                     <!-- Logo -->
                     <div class="auth-brand text-center text-lg-start">
-                        <a href="{{route('index')}}" class="logo-dark">
-                            <span><img src="{{asset('assets/images/BlogonDark.png')}}" alt="" height="18"></span>
+                        <a href="{{ route('index') }}" class="logo-dark">
+                            <span><img src="{{ asset('assets/images/BlogonDark.png') }}" alt=""
+                                    height="18"></span>
                         </a>
-                        <a href="{{route('index')}}" class="logo-light">
+                        <a href="{{ route('index') }}" class="logo-light">
                             <span><img src="assets/images/logo.png" alt="" height="18"></span>
                         </a>
                     </div>
 
                     <!-- title-->
                     <h4 class="mt-0 main-c">إعادة تعيين كلمة المرور</h4>
-                    <p class="text-muted mb-4">أدخل عنوان بريدك الإلكتروني وسنرسل إليك ارشادات عبر البريد الاكتروني تحتوي على تعليمات لإعادة تعيين كلمة المرور الخاصة بك.</p>
+                    <p class="text-muted mb-4">أدخل عنوان بريدك الإلكتروني وسنرسل إليك ارشادات عبر البريد الاكتروني
+                        تحتوي على تعليمات لإعادة تعيين كلمة المرور الخاصة بك.</p>
 
                     @if (session('status'))
-                    <div class="" role="alert">
-                        {{ session('status') }}
-                    </div>
+                        <div class="" role="alert">
+                            {{ session('status') }}
+                        </div>
                     @endif
                     <!-- form -->
                     <form method="POST" action="{{ route('password.email') }}">
@@ -61,23 +64,27 @@
 
                         <div class="mb-3">
                             <label for="emailaddress" class="form-label">البريد الاكتروني</label>
-                            <input class="form-control" type="email" id="emailaddress" name="email" value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus placeholder="ادخل بريدك الاكتروني">
+                            <input class="form-control" type="email" id="emailaddress" name="email"
+                                value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus
+                                placeholder="ادخل بريدك الاكتروني">
                             @error('email')
-                            <span class="" role="alert">
-                                <strong>{{ $message }}</strong>
-                            </span>
+                                <span class="" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
                             @enderror
 
                         </div>
                         <div class="mb-0 text-center d-grid">
-                            <button class="btn btn-primary" type="submit"><i class="mdi mdi-lock-reset"></i> إعادة تعيين كلمة المرور </button>
+                            <button class="btn btn-primary" type="submit"><i class="mdi mdi-lock-reset"></i> إعادة
+                                تعيين كلمة المرور </button>
                         </div>
                     </form>
                     <!-- end form-->
 
                     <!-- Footer-->
                     <footer class="footer footer-alt bg-white">
-                        <p class="text-muted">العودة الى <a href="{{ route('login') }}" class="text-muted ms-1"><b>تسجيل الدخول</b></a></p>
+                        <p class="text-muted">العودة الى <a href="{{ route('login') }}"
+                                class="text-muted ms-1"><b>تسجيل الدخول</b></a></p>
                     </footer>
 
                 </div> <!-- end .card-body -->
@@ -87,7 +94,7 @@
 
         <!-- Auth fluid right content -->
         <div class="auth-fluid auth-fluid-right text-center main-bg">
-            
+
         </div>
         <!-- end Auth fluid right content -->
     </div>

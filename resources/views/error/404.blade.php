@@ -16,13 +16,17 @@
     <div class="container">
         <div class="error-msg">
             <div class='error-img'>
-                <img src="/assets/images/error/notFonud.png" alt="">
+                <img src="/assets/images/error/error.png" alt="">
             </div>
-            <h1>@isset($error_title){{$error_title}}@else{{__('message.error_not_find_title')}}@endisset</h1>
-            <h4>{{__('message.error_not_find_body')}}</h4>
+            <h1>
+                @isset($error_title)
+                    {{ $error_title }}@else{{ __('message.error_not_find_title') }}
+                @endisset
+            </h1>
+            <h4>{{ __('message.error_not_find_body') }}</h4>
 
             <a href="{{ route('index') }}" class="btn btn-primary text-white btn-home-back">
-                <span>{{__('home.home')}}</span>
+                <span>{{ __('home.home') }}</span>
             </a>
         </div>
 

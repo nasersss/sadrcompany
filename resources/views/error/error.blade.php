@@ -16,7 +16,7 @@
     <div class="container">
         <div class="error-msg">
             <div class='error-img'>
-                <img src="/assets/images/error/notFonud.png" alt="">
+                <img src="/assets/images/error/error.png" alt="">
             </div>
             <h1>@isset($error_title){{$error_title}}@else{{__('message.error_public_title')}}@endisset</h1>
             <h4>@isset($error_body){{$error_body}}@else{{__('message.error_not_find_body')}}@endisset</h4>

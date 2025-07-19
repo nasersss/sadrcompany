@@ -8,33 +8,35 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/errorpage.css">
     <link rel="stylesheet" href="/assets/css/notFound.css">
-  <title>@yield('title')</title>
+    <title>@yield('title')</title>
 
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            <div class="container">
-                <div class="error-msg">
-                    <div class='error-img'>
-                        <img src="/assets/images/error/notFonud.png" alt="">
-                    </div>
-                    <div class="content">            
-                        <div class="title">
-                            <h1>@yield('message-title')</h1>
-                            <h4>@yield('message')
-                                {{__('error-page-handel.explain-message')}}
-                            </h4>
-                            
+</head>
 
-                        </div>
-                    </div>
-                    <a href="{{ route('index') }}" class="btn btn-primary text-white btn-home-back">
-                        <span>{{__('home.home')}}</span>
-                    </a>
+<body>
+    <div class="flex-center position-ref full-height">
+        <div class="container">
+            <div class="error-msg">
+                <div class='error-img'>
+                    <img src="/assets/images/error/error.png" alt="">
                 </div>
-        
+                <div class="content">
+                    <div class="title">
+                        <h1>@yield('message-title')</h1>
+                        <h4>@yield('message')
+                            {{ __('error-page-handel.explain-message') }}
+                        </h4>
+
+
+                    </div>
+                </div>
+                <a href="{{ route('index') }}" class="btn btn-primary text-white btn-home-back">
+                    <span>{{ __('home.home') }}</span>
+                </a>
             </div>
 
         </div>
-    </body>
+
+    </div>
+</body>
+
 </html>
