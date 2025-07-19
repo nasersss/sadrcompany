@@ -31,57 +31,12 @@
                     <div class="button">
                         <a href="{{ route('contact') }}" target="_blank"><button
                                 class="main-Bg contact-btn">{{ __('home.contact') }}</button></a>
-                        <a href="#"> <button class="brof" data-toggle="modal"
-                                data-target="#exampleModal">{{ __('home.work_prtfolio') }}</button></a>
-                    </div>
-
-
-                    <!-- strat Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <p class="modal-title" id="exampleModalLabel">{{ __('home.work_prtfolio') }}</p>
-
-                                </div>
-                                <div class="modal-body">
-                                    <div class="row">
-                                        <div class="col-6 ">
-                                            <a href="{{ asset('/files/document/خدمات بيلد بلس الهندسية .pdf') }}"
-                                                class="box main-Bg d-flex flex-column justify-content-center align-items-center p-2 btn-primary"
-                                                target="_blank">
-                                                <div class="  px-3 py-2" href="#">
-                                                    <span class=" w-75  "
-                                                        style="font-size: 16px;">{{ __('home.EngineeringWork') }}</span>
-                                                    <i class="fa-sharp fa-solid fa-download me-2"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-6 ">
-                                            <a href="{{ asset('/files/document/خدمات بيلد بلس الإعلانية.pdf') }}"
-                                                class="box main-Bg d-flex flex-column justify-content-center align-items-center p-2 btn-primary"
-                                                target="_blank">
-                                                <div class="  px-3 py-2" href="#">
-                                                    <span class=" w-75  "
-                                                        style="font-size: 16px;">{{ __('home.AdvertisingWork') }}</span>
-                                                    <i class="fa-sharp fa-solid fa-download me-2"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-dismiss="modal">{{ __('home.closed') }}</button>
-                                </div>
-                            </div>
+                        {{-- <a href="#"> <button class="brof" data-toggle="modal"
+                                data-target="#exampleModal">{{ __('home.work_prtfolio') }}</button></a> --}}
+                        <a href="https://drive.google.com/file/d/1H5K4WLBqM7JSfa4zcNGnJb0N6ioseJtd/view?usp=drivesdk"
+                            target="_blank"> <button class="brof"
+                                data-toggle="modal">{{ __('home.work_prtfolio') }}</button></a>
                         </div>
-                    </div>
-                    <!-- end Modal -->
-
-
-
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="about-img">
@@ -215,12 +170,12 @@
                         </div>
                     </div> --}}
                     <!-- <div class="card">
-                                    <img src="img/image/Servies/website.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">تصميم المواقع </h5>
-                                        <p class="card-text"> تصميم المواقع الاكترونية بشكل احترافي وجذاب </p>
-                                    </div>
-                                    </div> -->
+                                            <img src="img/image/Servies/website.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">تصميم المواقع </h5>
+                                                <p class="card-text"> تصميم المواقع الاكترونية بشكل احترافي وجذاب </p>
+                                            </div>
+                                            </div> -->
                     <!--<div class="card">-->
                     <!--    <img src="img/image/Servies/consulting.png" class="card-img-top" alt="...">-->
                     <!--    <div class="card-body">-->
