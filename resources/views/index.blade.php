@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-    SadrCompany Company شركة بيلد بلس
+    SadrCompany Company سطر للإستشارات الهندسية
 @endsection
 
 {{-- page css files or code  --}}
@@ -36,7 +36,7 @@
                         <a href="https://drive.google.com/file/d/1H5K4WLBqM7JSfa4zcNGnJb0N6ioseJtd/view?usp=drivesdk"
                             target="_blank"> <button class="brof"
                                 data-toggle="modal">{{ __('home.work_prtfolio') }}</button></a>
-                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="about-img">
@@ -170,12 +170,12 @@
                         </div>
                     </div> --}}
                     <!-- <div class="card">
-                                            <img src="img/image/Servies/website.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">تصميم المواقع </h5>
-                                                <p class="card-text"> تصميم المواقع الاكترونية بشكل احترافي وجذاب </p>
-                                            </div>
-                                            </div> -->
+                                                            <img src="img/image/Servies/website.png" class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">تصميم المواقع </h5>
+                                                                <p class="card-text"> تصميم المواقع الاكترونية بشكل احترافي وجذاب </p>
+                                                            </div>
+                                                            </div> -->
                     <!--<div class="card">-->
                     <!--    <img src="img/image/Servies/consulting.png" class="card-img-top" alt="...">-->
                     <!--    <div class="card-body">-->
@@ -208,8 +208,10 @@
                 </h2>
             </div>
             <div class="part m-0 p-0">
-                <img class="larg" src="{{ asset('assets/img/image/OurParteners/larg.jpg') }}" alt=" ourpartener" />
-                <img class="smal" src="{{ asset('assets/img/image/OurParteners/small.jpg') }}" alt="ourpartener" />
+                <img class="larg" src="{{ asset('assets/img/image/OurParteners/larg-company.png') }}"
+                    alt=" ourpartener" />
+                <img class="smal" src="{{ asset('assets/img/image/OurParteners/small-comany.png') }}"
+                    alt="ourpartener" />
             </div>
         </div>
     </div>
@@ -245,16 +247,18 @@
                     </button></a>
             </div>
             <div class="but">
-                {{-- <a href="https://www.facebook.com/buildplus.online" target="_blank"><img style="border-radius: 0px;"
-                        src="{{ asset('/assets/img/sotioal/face.png') }}" alt="facebook" /></a> --}}
                 <a href="https://www.instagram.com/sadr.companyy/" target="_blank"><img style="border-radius: 0px;"
-                        src="{{ asset('assets/img/sotioal/inst.png') }}" alt="Instagram" /></a>
+                        src="{{ asset('assets/img/sotioal/instgram.png') }}" alt="Instagram" /></a>
                 <a href="https://x.com/sadrcompanyy" target="_blank"><img style="border-radius: 0px;"
-                        src="{{ asset('/assets/img/sotioal/twitter.png') }}" alt="twittre" /></a>
+                        src="{{ asset('/assets/img/sotioal/x.png') }}" alt="x" /></a>
                 <a href="https://wa.me/+966555087348" target="_blank"><img style="border-radius: 0px;"
-                        src="{{ asset('/assets/img/sotioal/whats.png') }}" alt="whatsUpp" /></a>
-                {{-- <a href="https://www.youtube.com/@buildplus4200" target="_blank"><img style="border-radius: 0px;"
-                        src="{{ asset('/assets/img/sotioal/youtube2.png') }}" alt="youtube" /></a> --}}
+                        src="{{ asset('/assets/img/sotioal/wh2.png') }}" alt="whatsUpp" /></a>
+                <a href="https://www.snapchat.com/@sadrcompany?share_id=abc8q1cVO_8&locale=en-US" target="_blank"><img
+                        style="border-radius: 0px;" src="{{ asset('/assets/img/sotioal/snap.png') }}"
+                        alt="snap" /></a>
+                <a href="https://www.tiktok.com/@sadr.company" target="_blank"><img style="border-radius: 0px;"
+                        src="{{ asset('/assets/img/sotioal/tiktok.png') }}" alt="tiktok" /></a>
+
             </div>
         </div>
     </div>

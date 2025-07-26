@@ -33,7 +33,7 @@ class AuthServiceProvider extends ServiceProvider
     public function boot()
     {
         try {
-        
+
         $this->registerPolicies();
 
         // Gate::define('add-category', function($user,$category){
@@ -42,12 +42,12 @@ class AuthServiceProvider extends ServiceProvider
         VerifyEmail::toMailUsing(function ($notifiable, $url) {
             return (new MailMessage)
                 ->subject('التحقق من الايميل')
-                ->line('مرحبا بك في منصة بيلد بلس  ')
+                ->line('مرحبا بك في منصة سطر  ')
                 ->line('اضغط على الرابط في الاسفل للتحقق من الايميل')
                 ->action('التحقق من الايميل', $url);
         });
-          
-        
+
+
 
         } catch (\Throwable $th) {
         return view('error.error');

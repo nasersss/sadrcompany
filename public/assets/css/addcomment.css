@@ -1,22 +1,6 @@
-@font-face {
-  font-family: "Helvetica Neue LT";
-  src: url(../font/HelveticaNeueLTW1GBd.otf);
-  src: url(../font/HelveticaNeueLTW1GLt.otf);
-  src: url(../font/HelveticaNeueLTW1GRoman.otf);
-}
 
-@font-face {
-  font-family: "logo";
-  src: url(../font/Bauhaus.ttf);
-}
-
-@font-face {
-  font-family: "Helvetica AR";
-  src: url(../font/alfont_com_AlFont_com_helveticaneueltarabicroman1.ttf);
-  src: url(../font/helveticaneuelt-arabic-55-roman.ttf);
-}
 body {
-  font-family: "Helvetica Neue LT", "Helvetica AR";
+    font-family: "BalooBhaijaan2", Arial, sans-serif;
   background: linear-gradient(to bottom, #4b5159, #4974b1, #b59276);
   display: flex;
   justify-content: center;

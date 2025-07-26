@@ -29,10 +29,10 @@
                     <li><span><img src="{{ asset('assets/img/sotioal/Email.png') }}" alt="Email image">
                         </span>Sadrcompanyy@gmail.com</li>
                     <li><span><img src="{{ asset('assets/img/sotioal/phon.png') }}" alt="phone image">
-                        </span>6555087348
-                        96+</li>
+                        </span>555087348
+                        +966</li>
                     <li><span><img src="{{ asset('assets/img/sotioal/location.png') }}" alt="location image">
-                        </span>السعودية - الرياض - حي الصفاء - مخرج 15 </li>
+                        </span>السعودية - الرياض - حي الصفا - مخرج 15 </li>
 
                 </ul>
             </div>

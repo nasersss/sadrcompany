@@ -45,14 +45,14 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    {{-- <div class="card">
                         <img src="{{ asset('/assets/img/image/Servies/moshenGraphic.png') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
                             <h5 class="card-title w-c"style="font-size:25px;">{{ __('home.motion_title') }}</h5>
                             <p class="card-text">{{ __('home.motion_desc') }}</p>
                         </div>
-                    </div>
+                    </div> --}}
                     <!-- <div class="card">
                         <img src="img/image/Servies/website.png" class="card-img-top" alt="...">
                         <div class="card-body">

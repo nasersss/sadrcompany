@@ -9,7 +9,7 @@ return [
     'about' => 'About Us',
 
     //home page
-    'title' => 'شركة سطر',
+    'title' => 'سطر للإستشارات الهندسية',
     'subtitle' => 'نرسم رؤيتك من اول سطر',
     'work_prtfolio' => 'معرض الأعمال',
 

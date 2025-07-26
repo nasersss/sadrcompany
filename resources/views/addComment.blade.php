@@ -4,49 +4,51 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="شركة رائدة في تقديم الخدمات الهندسية والإعلانية,نعمل بأعلى مستويات الجودة وبإشراف طاقم ذو خبرة وكفاءة عالية" />
+    <meta name="description" content="من أول سطر نرسم رؤية هندسية إبداعية
+    تصاميــم | تراخيــص | إشـــراف | تنفيـــذ" />
     <meta name="keywords"
         content="التصميم الهندسي,
-    ,التصاميم, والمخططات المعمارية والتنفيذية,التصميم الجرافيكي
-    ,تصميم هوية الشركات, تصميم الكتب,تصميم الأغلفة,تصميم المجلات
+    ,التصاميم, والمخططات المعمارية والتنفيذية
+    ,التراخيص الهندسية,التراخيص الهندسية في السعودية,
+    ,التراخيص الهندسية في الرياض,
+    تصاميــم , تراخيــص,إشـــراف, تنفيـــذ
         ,التصميم الداخلي
-    ,تصميم الديكور, تصيم الاثاث بطريقة عصرية
-        الموشين جرافيك
     " />
-    <meta name="author" content="Nasser Al-Ghaithi" />
+    <meta name="author" content="Go Up" />
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('/assets/img/image/As2.pgn') }}" />
-    <link rel="shortcut" href="{{ asset('/assets/img/image/As2.pgn') }}" />
-    <link rel="apple-touch-icon" href="{{ asset('/assets/img/image/As2.pgn') }}" />
+    <link rel="icon" href="{{ asset('/assets/img/image/As2.png') }}" />
+    <link rel="shortcut" href="{{ asset('/assets/img/image/As2.png') }}" />
+    <link rel="apple-touch-icon" href="{{ asset('/assets/img/image/As2.png') }}" />
     <!--
     for facebook sharing
     -->
-    <meta property="og:title" content="SadrCompany" />
+    <meta property="og:title" content="sadrcompany" />
     <meta property="og:description"
-        content="شركة رائدة في تقديم الخدمات الهندسية والإعلانية ، نعمل بأعلى مستويات الجودة " />
+        content="من أول سطر نرسم رؤية هندسية إبداعية
+    تصاميــم | تراخيــص | إشـــراف | تنفيـــذ" />
     <meta property="og:image" content="{{ asset('/assets/img/4844_Page_02.jpg') }}" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://buildplus.online/" />
+    <meta property="og:url" content="https://sadrcompany.com/" />
     <meta property="og:type" content="website" />
     <!-- for facebook twitter -->
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@buildplus_c" />
+    <meta name="twitter:site" content="@sadrcompanyy" />
     <meta name="twitter:creator" content="@AL_Ghaithweb" />
-    <meta property="og:url" content="https://buildplus.online/" />
-    <meta property="og:title" content="SadrCompany" />
-    <meta
-        property="og:description"content="شركة رائدة في تقديم الخدمات الهندسية والإعلانية ، نعمل بأعلى مستويات الجودة وبإشراف طاقم ذو خبرة وكفاءة عالية" />
+    <meta property="og:url" content="https://sadrcompany.com/" />
+    <meta property="og:title" content="sadrcompany" />
+    <meta property="og:description"content="من أول سطر نرسم رؤية هندسية إبداعية
+    تصاميــم | تراخيــص | إشـــراف | تنفيـــذ" />
     <meta name="twitter:image:src" content="{{ asset('/assets/img/4844_Page_02.jpg') }}" />
 
     {{-- page css files or code  --}}
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
     <!-- App css -->
     <link href="{{ asset('assets/css/icons.min.css') }}" rel="stylesheet" type="text/css">
-    {{-- <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">  --}}
+
+
 
     <link href="{{ asset('assets/css/addcomment.css') }}" rel="stylesheet">
 

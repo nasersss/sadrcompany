@@ -1,6 +1,12 @@
 @charset "UTF-8";
-@import url(../fonts/DIN.css);
-/*
+@font-face {
+    font-family: "BalooBhaijaan2";
+    src: url(../fonts/Sader/BalooBhaijaan2-ExtraBold.ttf);
+    src: url(../fonts/Sader/BalooBhaijaan2-Bold.ttf);
+    src: url(../fonts/Sader/BalooBhaijaan2-SemiBold.ttf);
+    src: url(../fonts/Sader/BalooBhaijaan2-Medium.ttf);
+    src: url(../fonts/Sader/BalooBhaijaan2-VariableFont_wght.ttf);
+}/*
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -40,7 +46,7 @@
 *,
 ::after,
 ::before {
-  font-family: DIN-light, sans-serif, Arial;
+  font-family: BalooBhaijaan2, sans-serif, Arial;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -51,7 +57,7 @@
 }
 body {
   margin: 0;
-  font-family: DIN-light, sans-serif, Arial;
+  font-family: BalooBhaijaan2, sans-serif, Arial;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.5;

@@ -379,7 +379,7 @@
                             <tr>
                                 <td>
                                     <div class="text" style="padding: 0 2.5em; text-align: center;">
-                                        <h2>شركة سطر</h2>
+                                        <h2>سطر للإستشارات الهندسية</h2>
                                         <h2>مرحبا بك {{ $notification->toUser->name }}</h2>
                                         <h3>{{ $notification->content }}</h3>
                                         @php
@@ -434,7 +434,7 @@
                                         width="100%">
                                         <tr>
                                             <td style="text-align: center; padding-right: 10px;">
-                                                <h3 class="heading">عن شركة سطر</h3>
+                                                <h3 class="heading">عن سطر للإستشارات الهندسية</h3>
                                                 <p>شركة رائدة في تقديم الخدمات الهندسية والإعلانية نعمل بأعلى مستويات
                                                     الجودة وبإشراف طاقم ذو خبرة وكفاءة عالية</p>
                                             </td>
@@ -477,7 +477,7 @@
                 </tr><!-- end: tr -->
                 {{-- <tr>
                     <td class="bg_light" style="text-align: center;">
-                        <p>تم إرسال هذا البريد الإلكتروني بواسطة <span style="color: #4b5159;">شركة سطر</span>
+                        <p>تم إرسال هذا البريد الإلكتروني بواسطة <span style="color: #4b5159;">سطر للإستشارات الهندسية</span>
                             إذا كنت لا ترغب بتلقي هذا النوع من البريد الإلكتروني في المستقبل، فيرجى .
                             <a href="#" style="color: rgba(0,0,0,.8);">إلغاء الاشتراك</a>
                         </p>
